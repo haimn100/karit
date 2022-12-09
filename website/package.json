@@ -1,0 +1,40 @@
+{
+  "name": "website",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@formkit/themes": "^1.0.0-beta.10",
+    "@formkit/vue": "^1.0.0-beta.10",
+    "axios": "^0.27.2",
+    "jwt-decode": "^3.1.2",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.13",
+    "@typescript-eslint/eslint-plugin": "^5.36.0",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "autoprefixer": "^10.4.8",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-vue": "^9.4.0",
+    "postcss": "^8.4.16",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.8.2",
+    "vite": "^3.0.9",
+    "vue-tsc": "^0.40.4"
+  }
+}
